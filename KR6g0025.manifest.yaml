@@ -1,0 +1,84 @@
+canonical_identifier: bkk:krp/KR6g0025/v1
+canonical_location: https://kanripo.org/bkk/KR6g0025/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 四童子三昧經
+  identifiers:
+    alt_id:
+    - T12n0379
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T12/T12n0379.xml
+    old_id: T12n0379
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 聖
+  label: 聖
+  source_xml_id: wit5
+- short: 南藏
+  label: 南藏
+  source_xml_id: wit6
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6g0025_000.yaml, hash: 'sha256:3327522663be28a0cb1549cc2a3eaf9d7fd184469db959708342ddf79819e2a5'}
+  - {seq: 1, filename: KR6g0025_001.yaml, hash: 'sha256:b525e230c98e0be4b3b5023af09c2708d2fefdc9acf88f9a5b7895f7b8968e9f'}
+  - {seq: 2, filename: KR6g0025_002.yaml, hash: 'sha256:111b19beaae35aaa9b63e01b10253d686a34f61ae96fe1798baa312cc883f64a'}
+  - {seq: 3, filename: KR6g0025_003.yaml, hash: 'sha256:cfaf354c420b5cd7a4e9d8011575bfd0e51ec19841469630a0d94db0de0b77a0'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6g0025_001.markers.yaml, hash: 'sha256:1cd3ecdd2724e4fba9b0dd213c64af842724843e09d36eb71b17877acf943a46'}
+  - {seq: 2, role: markers, filename: assets/KR6g0025_002.markers.yaml, hash: 'sha256:9e0e0a1d033d5d057fe1253a4588ff33f5f1446f13ac2c6238e07ee8400c05ba'}
+  - {seq: 3, role: markers, filename: assets/KR6g0025_003.markers.yaml, hash: 'sha256:ad0cbb650385bf6b94b0ced74babd56e02e8e190f08cefd3c3ac5d82d7e87033'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6g0025_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 6350
+  label: 四童子三昧經卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6g0025_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 7118
+  label: 四童子三昧經卷中
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6g0025_T_003-juan-start
+    span:
+    - body
+    - 0
+    - 6546
+  label: 四童子三昧經卷下
+  type: juan
+  level: 1
+hash: sha256:6a408498ab16931a919dc453edca34c93caa6743284a1da6c3a206fbc803088e
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
