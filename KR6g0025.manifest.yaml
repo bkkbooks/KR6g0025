@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6g0025/v1
 canonical_location: https://kanripo.org/bkk/KR6g0025/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 四童子三昧經
   identifiers:
@@ -40,14 +40,14 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6g0025_000.yaml, hash: 'sha256:3327522663be28a0cb1549cc2a3eaf9d7fd184469db959708342ddf79819e2a5'}
-  - {seq: 1, filename: KR6g0025_001.yaml, hash: 'sha256:e97c6f0c79bf17d03c8a52caa7152d317b3d1dc63c40112faea758d1615d8a7b'}
-  - {seq: 2, filename: KR6g0025_002.yaml, hash: 'sha256:14fe515283a4a3cde02fbbf0f5fed6c23558c8be48ed14a45c093d783f1f88f0'}
-  - {seq: 3, filename: KR6g0025_003.yaml, hash: 'sha256:e2468da128f6838a58c10bf1c096354fe149e9175dcbe7839eef1bb005418b9f'}
+  - {seq: 1, filename: KR6g0025_001.yaml, hash: 'sha256:9608609dcd7f9fe015294f3cd65a72384fbb43c3503c4218d04950ea086a32bb'}
+  - {seq: 2, filename: KR6g0025_002.yaml, hash: 'sha256:17b51c268e7b52c12511ef00994c05f9c6c29173ffcfd5998801ab293d0a1103'}
+  - {seq: 3, filename: KR6g0025_003.yaml, hash: 'sha256:e578d444daac4cebd7901d8044faae798a4fea6857e69dc620d97726eacb4f01'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6g0025_000.markers.yaml, hash: 'sha256:a738498c62411ddf469c2e538d919a1ce87864c2fcbab7913c50c22017de8fac'}
-  - {seq: 1, role: markers, filename: assets/KR6g0025_001.markers.yaml, hash: 'sha256:391ed91d546f8268494c8caba4c4a8e5e3632f39e9ecbe7e200f96c411949202'}
-  - {seq: 2, role: markers, filename: assets/KR6g0025_002.markers.yaml, hash: 'sha256:f2c95c01c2f1e66a00123646abdf557e6f9a09b8b2ffb29c94541475c913c5d9'}
-  - {seq: 3, role: markers, filename: assets/KR6g0025_003.markers.yaml, hash: 'sha256:a78959adc812071ed8da6f2f63d48ecb4702dcf930a8bf2930f516e4fcc34ac1'}
+  - {seq: 1, role: markers, filename: assets/KR6g0025_001.markers.yaml, hash: 'sha256:cdb4f9bc3c998dec091b7af6adb469b2c2c02e369a027a634dbfa8db411307bf'}
+  - {seq: 2, role: markers, filename: assets/KR6g0025_002.markers.yaml, hash: 'sha256:a6475816750270c291a8862ad97f037002babc0822a607b5c79d01bded8a3457'}
+  - {seq: 3, role: markers, filename: assets/KR6g0025_003.markers.yaml, hash: 'sha256:ab9395dbad33739cc443acea19db510403bc9093d68204fa8d743677c3f21ef2'}
 table_of_contents:
 - ref:
     seq: 1
@@ -79,4 +79,7 @@ table_of_contents:
   label: 四童子三昧經卷下
   type: juan
   level: 1
-hash: sha256:efb199882fa56a77605d548475ccd6124a43da7a83c31676a4c94f664d303a15
+hash: sha256:d82df679620e09b4117717990d475d451c1abe81807386f43f0d3b31978491cd
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
